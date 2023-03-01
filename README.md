@@ -2,8 +2,10 @@
 
 This is the code to replicate all figures from "Reusability Report: Few-shot learning creates predictive models of drug response that translate from high-throughput screens to individual patients". The goal of this paper is to reproduce the results from the Nature Cancer paper "Few-shot learning creates predictive models of drug response that translate from high-throughput screens to individual patients"[1]
 
-There are multiple different ways you can interact with this capsule 
-# Reproducing results of Reusability Report 
+*N.B*: This code is available on Code Ocean for easy, one-click running [here](https://codeocean.com/capsule/8411716/tree/v2)
+
+There are multiple different ways you can interact with this capsule:
+# Reproducing results of Reusability Report (within a Code Ocean Capsule)
 1. Use the App Panel dropdown on the left sidebar to select a reference-validation combination that you would like to run few-shot TCRP analysis on, as well as baseline comparison against established machine learning methods 
 2. Click "Reproducible Run" at the top right of the capsule
 3. The results you will receive are the baseline performance results, TCRP performance results and baseline/TCRP performance comparison. (**N.B.** due to the limited compute hours you may have with your Code Ocean compute account, some good examples to run would be `gCSI_PDTC`, `CTRP_PDTC` or `GDSC1_GSE41998` as they are very small in compute runtime)
